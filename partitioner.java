@@ -8,13 +8,31 @@ package partitionStable;
 		have been defined.
 	4. We need a reference to next because we are going to be moving each n in position, either
 		to the end of the before list, or to the end of the after list. We should nullify it's next.
-		
+
 */
 
 public class partitioner {
 
 	public static LinkedListNode partition(LinkedListNode n, int x){
+		LinkedListNode beforeStart = null;
+		LinkedListNode beforeEnd = null;
+		LinkedListNode afterStart = null;
+		LinkedListNode afterEnd = null;
 
+
+		while(n!=null){
+			if(n.data<x){
+				
+			}
+			else{
+				
+			}
+		}
+
+		if(beforeStart == null){
+			return afterStart;
+		}
+		return beforeStart;
 	}
 
 	public static void main(String[] args){
