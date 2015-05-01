@@ -4,7 +4,7 @@ public class LinkedListNode {
 	public LinkedListNode next;
 	public int data;
 
-	public LinkedListNode(int x){
-		data = x;
+	public LinkedListNode(int i){
+		data = i;
 	}
 }
